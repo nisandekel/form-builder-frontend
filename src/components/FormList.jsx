@@ -7,7 +7,7 @@ function FormList(props) {
         <td>{form.id}</td>
         <td>{form.name}</td>
         <td>{form.numOfSubmissions}</td>
-        <td>{form.submitPageLink}</td>
+        <td>{"link-" + form.id}</td>
     </tr>);
   });
 
